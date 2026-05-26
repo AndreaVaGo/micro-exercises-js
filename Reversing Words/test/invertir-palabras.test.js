@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { invertirPalabras } from '../src/invertir-palabras.js';
+import { invertirPalabras } from '../src/js/invertir-palabras.js'; 
 
 describe('Pruebas función invertirPalabras', () => {
 
