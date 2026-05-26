@@ -1,21 +1,21 @@
 import { describe, test, expect } from 'vitest';
 import { invertirPalabras } from '../src/invertir-palabras.js';
 
-describe('Pruebas para la función invertirPalabras', () => {
+describe('Pruebas función invertirPalabras', () => {
 
-    test('Debería invertir un texto simple de dos palabras', () => {
+    test('Invertir un texto simple de dos palabras', () => {
         expect(invertirPalabras("Hello World")).toBe("World Hello");
     });
 
-    test('Debería invertir un texto simple con signos de puntuación', () => {
+    test('Invertir un texto simple con signos de puntuación', () => {
         expect(invertirPalabras("Hi There.")).toBe("There. Hi");
     });
 
-    test('Debería quitar espacios al principio y al final e invertir', () => {
+    test('Quitar espacios al principio y al final e invertir', () => {
         expect(invertirPalabras("   espacios al rededor   ")).toBe("rededor al espacios");
     });
 
-    test('Debería controlar múltiples espacios intermedios', () => {
+    test('Controlar múltiples espacios intermedios', () => {
         expect(invertirPalabras("Muchos      espacios        intermedios")).toBe("intermedios espacios Muchos");
     });
 
