@@ -16,6 +16,6 @@
   "_comentario4": "devDependencies: Instalamos Vitest, la herramienta moderna de testing",
   "devDependencies": {
     "sass": "^1.100.0",
-    "vitest": "^1.6.0"
+    "vitest": "^5.1.0"
   }
 }
